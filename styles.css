@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* src/static/styles.css */
+
+/* Background gradient and centering */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #000000, #800080); /* Adjusted background gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 90%; /* Adjusted width of the container */
+    max-width: 400px; /* Adjusted maximum width of the container */
+    margin: auto; /* Center the container horizontally */
+}
+
+h2 {
+    color: #FFF;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+label {
+    margin: 10px 0 5px;
+    color: white;
+}
+
+input[type="text"], input[type="file"] {
+    width: 100%; /* Adjusted width to fill the form container */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+h3 {
+    color: #FFD700; /* Gold color for better contrast */
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    color: #FFD700; /* Gold color for better contrast */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

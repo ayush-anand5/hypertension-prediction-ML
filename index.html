@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hypertension Prediction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hypertension Prediction</h1>
+        <form action="/upload" method="post">
+            <label for="age">Age :</label><br>
+            <input type="text" id="age" name="age" required><br>
+            <label for="sex">Sex (1 = Male, 0 = Female):</label><br>
+            <input type="text" id="sex" name="sex" required><br>
+            <label for="trestbps">Resting Blood Pressure:</label><br>
+            <input type="text" id="trestbps" name="trestbps" required><br>
+            <label for="chol">Serum Cholesterol (chol) :</label><br>
+            <input type="text" id="chol" name="chol" required><br><br>
+            <label for="fbs">Fasting Blood Sugar > 120 mg/dl (fbs):</label><br>
+            <input type="text" id="fbs" name="fbs" required><br>
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+</body>
+</html>
